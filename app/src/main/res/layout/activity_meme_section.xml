@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.theman.ruben.dankmeme.activities.MemeSection">
+
+    <fragment
+        android:id="@+id/TopSectionFragment"
+        android:name="com.theman.ruben.dankmeme.fragments.TopSectionFragment"
+        android:layout_width="312dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/top_section_fragment" />
+
+    <fragment
+        android:id="@+id/BottomPictureFragment"
+        android:name="com.theman.ruben.dankmeme.fragments.BottomPictureFragment"
+        android:layout_width="312dp"
+        android:layout_height="307dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/TopSectionFragment"
+        app:layout_constraintStart_toStartOf="@+id/TopSectionFragment"
+        app:layout_constraintTop_toBottomOf="@+id/TopSectionFragment"
+        tools:layout="@layout/bottom_picture_fragment" />
+
+</android.support.constraint.ConstraintLayout>

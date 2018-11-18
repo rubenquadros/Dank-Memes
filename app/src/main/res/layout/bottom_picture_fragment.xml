@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/memePictureLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/memePicture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/display_selected_image"
+        android:scaleType="center"
+        app:srcCompat="?android:attr/windowBackground"
+        tools:ignore="ContentDescription"
+        android:layout_alignBottom="@+id/bottomViewText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/topViewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/top_meme_text_appears_here"
+        android:textColor="#fff"
+        android:shadowColor="#000"
+        android:shadowRadius="3"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/middleViewText"
+        android:layout_width="140dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:gravity="top"
+        android:text="@string/middle_meme_text_appears_here"
+        android:textColor="#fff"
+        android:shadowColor="#000"
+        android:shadowRadius="3"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/topViewText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/bottomViewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:gravity="center"
+        android:text="@string/bottom_meme_text_appears_here"
+        android:textColor="#fff"
+        android:shadowColor="#000"
+        android:shadowRadius="3"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Dank Meme</string>
+    <string name="images">Images</string>
+    <string name="from_gallery">From Gallery</string>
+    <string name="make_dank_memes">Make Dank Memes</string>
+    <string name="bottom_meme_text">Bottom Meme Text</string>
+    <string name="make_meme_button">Dank Meme!</string>
+    <string name="middle_meme_text">Middle Meme Text</string>
+    <string name="top_meme_text">Top Meme Text</string>
+    <string name="top_meme_hint">Top Meme Text Appears Here</string>
+    <string name="bottom_meme_hint">Bottom Meme Text Appears Here</string>
+    <string name="middle_meme_hint">Middle Meme Text Appears Here</string>
+    <string name="display_selected_image">display selected image</string>
+    <string name="meme_title">Meme Title:</string>
+    <string name="save_meme">Save Meme</string>
+    <string name="share_meme">Share Meme</string>
+    <string name="no_internet">Please connect to the internet and try again</string>
+    <string name="no_image_picked">You haven\'t picked Image</string>
+    <string name="oops_err">Something went wrong</string>
+    <string name="loading_memes">Getting Meme Images...</string>
+    <string name="storage_request_rationale">Dank Meme needs access to save your memes!</string>
+    <string name="give_meme_name">Please give your meme a name</string>
+    <string name="file_exists">This file already exists</string>
+    <string name="meme_saved">Meme Saved</string>
+    <string name="dank_meme">Dank Meme!</string>
+    <string name="top_meme_text_appears_here">Top Meme Text Appears Here</string>
+    <string name="middle_meme_text_appears_here">Middle Meme Text Appears Here</string>
+    <string name="bottom_meme_text_appears_here">Bottom Meme Text Appears Here</string>
+</resources>
